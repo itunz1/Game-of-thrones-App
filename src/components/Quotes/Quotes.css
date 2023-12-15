@@ -1,0 +1,44 @@
+.quotes-section {
+    padding: 9.6rem 15rem 9.6rem 15rem;
+}
+
+.quotes-container {
+    display: flex;
+    background-color: black;
+    margin: 0 auto;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.quotes-h1 {
+    text-align: center;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.quotes {
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #623413;
+}
+
+.quotes h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.quotes-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quote-sentence {
+    background-color: #623413;
+    color: white;
+}
